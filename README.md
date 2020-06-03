@@ -23,4 +23,5 @@
                                   e.g.:
                                   `messages/user/2/?sent_or_received=sent`
                                   will return all sent messages for user 2
+                                  
 `messages/user/unread/<int:pk>/` - returns all unread messages for specific user, according to id
